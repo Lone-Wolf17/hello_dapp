@@ -1,3 +1,7 @@
+### Peculiar to Project
+/lib/secrets.dart
+pubspec.lock
+
 # Miscellaneous
 *.class
 *.log
