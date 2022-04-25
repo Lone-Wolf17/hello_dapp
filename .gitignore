@@ -1,6 +1,6 @@
 ### Peculiar to Project
 /lib/secrets.dart
-pubspec.lock
+/pubspec.lock
 
 # Miscellaneous
 *.class

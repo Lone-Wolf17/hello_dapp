@@ -54,7 +54,7 @@ class ContractLinking extends ChangeNotifier {
   }
   
   Future<void> getCredentials() async {
-    _credentials = await _client!.credentialsFromPrivateKey(_privateKey);
+    _credentials = EthPrivateKey.fromHex(_privateKey);
   }
 
   Future<void> getDeployedContract() async {
